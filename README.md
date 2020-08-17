@@ -17,8 +17,8 @@ Open terminal and type
 ```bash
 sudo python3 stream.py
 ```
-After hosts complete the streaming, a folder created for each experiment inside the working directory for each experiment. A PHP script is used to store each godash logfile in the MYSQL database. Whereas for per-segment RTT of 60 segments of stream calculated by python script
-arbiter-bba-persegment-RTT.ipynb for BBA and Arbiter with head requests and other-persegment-RTT.ipynb python script is used to calculate per-segment RTT, Packets, and Throughput for ABS Conventional, Logistic, Exponential, Arbiter +.
+After hosts complete the streaming, a folder created for each experiment inside the working directory. A PHP script is used to store each godash logfile in the MYSQL database. For per-segment RTT, Number of Packets and Throughput of stream is calculated by python script
+arbiter-bba-persegment-RTT.ipynb for ABS (BBA and Arbiter) with head requests and other-persegment-RTT.ipynb python script is used for ABS Conventional, Logistic, Exponential and  Arbiter +.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
