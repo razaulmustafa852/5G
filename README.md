@@ -4,7 +4,7 @@
 
 ## Installation
 
-Following software are required to re-produce the same results and data
+Following software are required to reproduce the same results and data
 
 1. goDash Player
 2. Mininet
@@ -17,3 +17,5 @@ Open terminal and type
 ```bash
 sudo python3 stream.py
 ```
+After hosts complete the streaming, a folder created for each experiment inside the working directory for each experiment. A PHP script is used to store each godash logfile in the MYSQL database. Whereas for per-segment RTT of 60 segments of stream calculated by python script
+arbiter-bba-persegment-RTT.ipynb for BBA and Arbiter with head requests and other-persegment-RTT.ipynb python script is used to calculate per-segment RTT, Packets, and Throughput for ABS Conventional, Logistic, Exponential, Arbiter +.
