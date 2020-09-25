@@ -1,4 +1,4 @@
-# A supervised Machine Learning approach forDASH video QoE prediction in 5G networks
+# A supervised Machine Learning approach for DASH video QoE prediction in 5G networks
 
 
 
