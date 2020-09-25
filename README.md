@@ -10,7 +10,7 @@ Following software are required to reproduce the same results and data
 2. Mininet --- https://github.com/mininet/mininet
 3. MYSQL for data storage
 
-There are two python scripts to run the topology. In stream.py you need to define the number of Hosts (nodes), ABS algorithm, and bandwidth column as defined in the file 5G_TC_Driving - Sheet2.csv. The script will call, topo.py where inside that script godash, mininet called to process the requested hosts and their godash log files.
+There are two python scripts to run the topology. In stream.py you need to define the number of Hosts (nodes), ABS algorithm, and bandwidth column as defined in the file 5G_Cases.csv. The script will call, topo.py where inside that script godash, mininet called to process the requested hosts and their godash log files.
 
 Open terminal and type
 
